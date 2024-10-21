@@ -30,7 +30,7 @@ function App() {
                 <Navbar toggleTheme={toggleTheme} currentTheme={theme} />
                 <div className="container mt-4">
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route basename="/react-landing" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Service />} />
                         <Route path="/contact" element={<Contact />} />
