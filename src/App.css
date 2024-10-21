@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link {
+    cursor: pointer;
+}
+
+body.bg-dark {
+    background-color: #343a40; /* Темный фон */
+    color: white; /* Белый текст */
+}
+
+body.bg-light {
+    background-color: white; /* Светлый фон */
+    color: black; /* Черный текст */
+}
+
+/* Стиль для светлого режима */
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Стиль для тёмного режима */
+.dark {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+/* Стили для навигационной панели */
+.navbar-light {
+    background-color: #f8f9fa !important;
+}
+
+.navbar-dark {
+    background-color: #343a40 !important;
+}
+
+.banner {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.banner {
+    position: relative;
+    color: #fff;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    z-index: 1;
+}
+
+.banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.contact h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
